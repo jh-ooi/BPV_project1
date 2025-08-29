@@ -1,0 +1,132 @@
+{
+  "created_at": "2025-08-22T16:25:30.654777+00:00",
+  "elapsed": 1.20058,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Fri, 22 Aug 2025 16:25:30 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.4"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxcui/6876/related.json?tty=SCD"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxcui/6876/related.json?tty=SCD",
+  "_decoded_content": {
+    "relatedGroup": {
+      "rxcui": null,
+      "conceptGroup": [
+        {
+          "tty": "SCD",
+          "conceptProperties": [
+            {
+              "rxcui": "104357",
+              "name": "methyldopa 250 MG Oral Capsule",
+              "synonym": "",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197955",
+              "name": "methyldopa 125 MG Oral Tablet",
+              "synonym": "",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197956",
+              "name": "methyldopa 250 MG Oral Tablet",
+              "synonym": "",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197958",
+              "name": "methyldopa 500 MG Oral Tablet",
+              "synonym": "",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197959",
+              "name": "chlorothiazide 250 MG / methyldopa 250 MG Oral Tablet",
+              "synonym": "",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197960",
+              "name": "hydrochlorothiazide 25 MG / methyldopa 250 MG Oral Tablet",
+              "synonym": "HCTZ 25 MG / methyldopa 250 MG Oral Tablet",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197961",
+              "name": "hydrochlorothiazide 50 MG / methyldopa 500 MG Oral Tablet",
+              "synonym": "HCTZ 50 MG / methyldopa 500 MG Oral Tablet",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197962",
+              "name": "hydrochlorothiazide 30 MG / methyldopa 500 MG Oral Tablet",
+              "synonym": "HCTZ 30 MG / methyldopa 500 MG Oral Tablet",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            },
+            {
+              "rxcui": "197963",
+              "name": "hydrochlorothiazide 15 MG / methyldopa 250 MG Oral Tablet",
+              "synonym": "HCTZ 15 MG / methyldopa 250 MG Oral Tablet",
+              "tty": "SCD",
+              "language": "ENG",
+              "suppress": "N",
+              "umlscui": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

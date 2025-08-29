@@ -1,0 +1,822 @@
+{
+  "created_at": "2025-08-25T10:20:31.816998+00:00",
+  "elapsed": 1.172368,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Mon, 25 Aug 2025 10:20:31 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C09&relaSource=ATC"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C09&relaSource=ATC",
+  "_decoded_content": {
+    "drugMemberGroup": {
+      "drugMember": [
+        {
+          "minConcept": {
+            "rxcui": "1009219",
+            "name": "aliskiren / amlodipine",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09XA53"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "aliskiren and amlodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1033889",
+            "name": "amlodipine / perindopril",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09BB04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "perindopril and amlodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1050797",
+            "name": "aliskiren / amlodipine / hydrochlorothiazide",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09XA54"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "aliskiren, amlodipine and hydrochlorothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1091642",
+            "name": "azilsartan medoxomil",
+            "tty": "PIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA09"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "azilsartan medoxomil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "118463",
+            "name": "olmesartan medoxomil",
+            "tty": "PIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA08"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "olmesartan medoxomil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1656339",
+            "name": "sacubitril / valsartan",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09DX04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "valsartan and sacubitril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1798280",
+            "name": "nebivolol / valsartan",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09DX05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "valsartan and nebivolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "18867",
+            "name": "benazepril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA07"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "benazepril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1998",
+            "name": "captopril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "captopril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "21102",
+            "name": "cilazapril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA08"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "cilazapril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "214223",
+            "name": "amlodipine / benazepril",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09BB13"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "benazepril and amlodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "214354",
+            "name": "candesartan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "candesartan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "214866",
+            "name": "trandolapril / verapamil",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09BB10"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "trandolapril and verapamil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2630535",
+            "name": "sparsentan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09XX01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "sparsentan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "29046",
+            "name": "lisinopril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "lisinopril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "30131",
+            "name": "moexipril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA13"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "moexipril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "325646",
+            "name": "aliskiren",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09XA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "aliskiren"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "35208",
+            "name": "quinapril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "quinapril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "35296",
+            "name": "ramipril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "ramipril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "36908",
+            "name": "spirapril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA11"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "spirapril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "3827",
+            "name": "enalapril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "enalapril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "38454",
+            "name": "trandolapril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA10"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "trandolapril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "389179",
+            "name": "felodipine / ramipril",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09BB05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "ramipril and felodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "39990",
+            "name": "zofenopril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA15"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "zofenopril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "50166",
+            "name": "fosinopril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA09"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "fosinopril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "52175",
+            "name": "losartan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "losartan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "54552",
+            "name": "perindopril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "perindopril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "60245",
+            "name": "imidapril",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09AA16"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "imidapril"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "69749",
+            "name": "valsartan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "valsartan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "729455",
+            "name": "amlodipine / valsartan",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09DB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "valsartan and amlodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "73494",
+            "name": "telmisartan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA07"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "telmisartan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "802519",
+            "name": "aliskiren / hydrochlorothiazide",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09XA52"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "aliskiren and hydrochlorothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "83515",
+            "name": "eprosartan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "eprosartan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "83818",
+            "name": "irbesartan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09CA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "irbesartan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "852897",
+            "name": "amlodipine / hydrochlorothiazide / valsartan",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09DX01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "valsartan, amlodipine and hydrochlorothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "900937",
+            "name": "aliskiren / valsartan",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09DX02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "valsartan and aliskiren"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "901212",
+            "name": "amlodipine / telmisartan",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C09DB04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "telmisartan and amlodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

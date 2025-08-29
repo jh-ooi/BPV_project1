@@ -1,0 +1,633 @@
+{
+  "created_at": "2025-08-25T09:15:33.366131+00:00",
+  "elapsed": 3.058816,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Mon, 25 Aug 2025 09:15:33 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C07&relaSource=ATC"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C07&relaSource=ATC",
+  "_decoded_content": {
+    "drugMemberGroup": {
+      "drugMember": [
+        {
+          "minConcept": {
+            "rxcui": "1007489",
+            "name": "felodipine / metoprolol",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07FB02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "metoprolol and felodipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "10600",
+            "name": "timolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "timolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1202",
+            "name": "atenolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "atenolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "149",
+            "name": "acebutolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "acebutolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1520",
+            "name": "betaxolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "betaxolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1817",
+            "name": "bupranolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA19"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bupranolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "19484",
+            "name": "bisoprolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB07"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bisoprolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "19605",
+            "name": "bopindolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA17"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bopindolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "20352",
+            "name": "carvedilol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AG02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "carvedilol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "20498",
+            "name": "celiprolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB08"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "celiprolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2116",
+            "name": "carteolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA15"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "carteolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2712070",
+            "name": "landiolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB14"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "landiolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "29518",
+            "name": "mepindolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA14"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "mepindolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "31555",
+            "name": "nebivolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB12"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "nebivolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "37546",
+            "name": "talinolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB13"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "talinolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "37840",
+            "name": "tertatolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA16"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "tertatolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "392475",
+            "name": "atenolol / nifedipine",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07FB03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "atenolol and nifedipine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "49737",
+            "name": "esmolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB09"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "esmolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "597",
+            "name": "alprenolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "alprenolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6185",
+            "name": "labetalol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AG01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "labetalol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6918",
+            "name": "metoprolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "metoprolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "7226",
+            "name": "nadolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA12"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "nadolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "7801",
+            "name": "oxprenolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "oxprenolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "7973",
+            "name": "penbutolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA23"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "penbutolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "8332",
+            "name": "pindolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "pindolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "8620",
+            "name": "practolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "practolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "8787",
+            "name": "propranolol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "propranolol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "9947",
+            "name": "sotalol",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C07AA07"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "sotalol"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

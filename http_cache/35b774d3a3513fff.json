@@ -1,0 +1,107 @@
+{
+  "created_at": "2025-08-22T09:51:10.025413+00:00",
+  "elapsed": 1.117,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Fri, 22 Aug 2025 09:51:09 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.4"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000062/historystatus.json"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000062/historystatus.json",
+  "_decoded_content": {
+    "rxcuiStatusHistory": {
+      "metaData": {
+        "status": "Obsolete",
+        "source": "RXNORM",
+        "releaseStartDate": "092010",
+        "releaseEndDate": "",
+        "isCurrent": "NO",
+        "activeStartDate": "092010",
+        "activeEndDate": "022013",
+        "remappedDate": ""
+      },
+      "attributes": {
+        "rxcui": "1000062",
+        "name": "doxepin 100 MG Oral Capsule [Sinequan]",
+        "tty": "SBD",
+        "isMultipleIngredient": "NO",
+        "isBranded": "YES"
+      },
+      "definitionalFeatures": {
+        "ingredientAndStrength": [
+          {
+            "baseRxcui": "3638",
+            "baseName": "doxepin",
+            "bossRxcui": "3638",
+            "bossName": "doxepin",
+            "activeIngredientRxcui": "3638",
+            "activeIngredientName": "doxepin",
+            "moietyRxcui": "3638",
+            "moietyName": "doxepin",
+            "numeratorValue": "100",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "EACH"
+          }
+        ],
+        "doseFormConcept": [
+          {
+            "doseFormRxcui": "316965",
+            "doseFormName": "Oral Capsule"
+          }
+        ],
+        "doseFormGroupConcept": [
+          {
+            "doseFormGroupRxcui": "1151131",
+            "doseFormGroupName": "Oral Product"
+          },
+          {
+            "doseFormGroupRxcui": "1151133",
+            "doseFormGroupName": "Pill"
+          }
+        ]
+      },
+      "pack": {},
+      "derivedConcepts": {
+        "ingredientConcept": [
+          {
+            "ingredientRxcui": "3638",
+            "ingredientName": "doxepin"
+          }
+        ],
+        "scdConcept": {
+          "scdConceptRxcui": "1000058",
+          "scdConceptName": "doxepin 100 MG Oral Capsule"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "created_at": "2025-08-22T09:51:54.981135+00:00",
+  "elapsed": 1.266053,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Fri, 22 Aug 2025 09:51:54 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.4"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000670/historystatus.json"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000670/historystatus.json",
+  "_decoded_content": {
+    "rxcuiStatusHistory": {
+      "metaData": {
+        "status": "Obsolete",
+        "source": "RXNORM",
+        "releaseStartDate": "092010",
+        "releaseEndDate": "",
+        "isCurrent": "NO",
+        "activeStartDate": "092010",
+        "activeEndDate": "032016",
+        "remappedDate": ""
+      },
+      "attributes": {
+        "rxcui": "1000670",
+        "name": "pilocarpine hydrochloride 2.5 MG/ML Ophthalmic Solution [Isoptocarpine]",
+        "tty": "SBD",
+        "isMultipleIngredient": "NO",
+        "isBranded": "YES"
+      },
+      "definitionalFeatures": {
+        "ingredientAndStrength": [
+          {
+            "baseRxcui": "8328",
+            "baseName": "pilocarpine",
+            "bossRxcui": "235426",
+            "bossName": "pilocarpine hydrochloride",
+            "activeIngredientRxcui": "235426",
+            "activeIngredientName": "pilocarpine hydrochloride",
+            "moietyRxcui": "8328",
+            "moietyName": "pilocarpine",
+            "numeratorValue": "2.5",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          }
+        ],
+        "doseFormConcept": [
+          {
+            "doseFormRxcui": "7670",
+            "doseFormName": "Ophthalmic Solution"
+          }
+        ],
+        "doseFormGroupConcept": [
+          {
+            "doseFormGroupRxcui": "1151135",
+            "doseFormGroupName": "Ophthalmic Product"
+          }
+        ]
+      },
+      "pack": {},
+      "derivedConcepts": {
+        "ingredientConcept": [
+          {
+            "ingredientRxcui": "8328",
+            "ingredientName": "pilocarpine"
+          }
+        ],
+        "scdConcept": {
+          "scdConceptRxcui": "1000668",
+          "scdConceptName": "pilocarpine hydrochloride 2.5 MG/ML Ophthalmic Solution"
+        }
+      }
+    }
+  }
+}

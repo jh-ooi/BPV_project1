@@ -1,0 +1,801 @@
+{
+  "created_at": "2025-08-25T10:20:29.460773+00:00",
+  "elapsed": 1.364117,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Mon, 25 Aug 2025 10:20:29 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C03&relaSource=ATC"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C03&relaSource=ATC",
+  "_decoded_content": {
+    "drugMemberGroup": {
+      "drugMember": [
+        {
+          "minConcept": {
+            "rxcui": "10437",
+            "name": "theobromine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BD01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "theobromine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "10763",
+            "name": "triamterene",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DB02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "triamterene"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "10772",
+            "name": "trichlormethiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "trichlormethiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "11371",
+            "name": "xipamide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA10"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "xipamide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1369",
+            "name": "bendroflumethiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bendroflumethiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1808",
+            "name": "bumetanide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bumetanide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1981",
+            "name": "canrenoate potassium",
+            "tty": "PIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "potassium canrenoate"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1982",
+            "name": "canrenone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "canrenone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "21914",
+            "name": "cicletanine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BX03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "cicletanine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "22033",
+            "name": "cyclothiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA09"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "cyclothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2396",
+            "name": "chlorothiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "chlorothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2409",
+            "name": "chlorthalidone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "chlortalidone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2562811",
+            "name": "finerenone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DA05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "finerenone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2603",
+            "name": "clopamide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "clopamide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "298869",
+            "name": "eplerenone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "eplerenone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "3000",
+            "name": "cyclopenthiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA07"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "cyclopenthiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "302285",
+            "name": "conivaptan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03XA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "conivaptan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "33770",
+            "name": "piretanide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "piretanide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "358257",
+            "name": "tolvaptan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03XA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "tolvaptan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "38413",
+            "name": "torsemide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "torasemide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "392464",
+            "name": "furosemide / potassium",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "furosemide and potassium"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "392534",
+            "name": "bumetanide / potassium",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CB02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bumetanide and potassium"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "392576",
+            "name": "bendroflumethiazide / potassium",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bendroflumethiazide and potassium"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "4109",
+            "name": "ethacrynic acid",
+            "tty": "PIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CC01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "etacrynic acid"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "4603",
+            "name": "furosemide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03CA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "furosemide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "5487",
+            "name": "hydrochlorothiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA03"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "hydrochlorothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "5495",
+            "name": "hydroflumethiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "hydroflumethiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "5764",
+            "name": "indapamide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA11"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "indapamide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "59743",
+            "name": "quinethazone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "quinethazone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "644",
+            "name": "amiloride",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "amiloride"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6696",
+            "name": "mefruside",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "mefruside"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6774",
+            "name": "mersalyl",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BC01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "mersalyl"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6860",
+            "name": "methyclothiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA08"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "methyclothiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6916",
+            "name": "metolazone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03BA08"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "metolazone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "8565",
+            "name": "polythiazide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03AA05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "polythiazide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "9997",
+            "name": "spironolactone",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C03DA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "spironolactone"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "created_at": "2025-08-22T09:51:38.289286+00:00",
+  "elapsed": 1.61485,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Fri, 22 Aug 2025 09:51:38 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.4"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000151/historystatus.json"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000151/historystatus.json",
+  "_decoded_content": {
+    "rxcuiStatusHistory": {
+      "metaData": {
+        "status": "Obsolete",
+        "source": "RXNORM",
+        "releaseStartDate": "092010",
+        "releaseEndDate": "",
+        "isCurrent": "NO",
+        "activeStartDate": "092010",
+        "activeEndDate": "042013",
+        "remappedDate": ""
+      },
+      "attributes": {
+        "rxcui": "1000151",
+        "name": "estradiol cypionate 10 MG/ML / medroxyprogesterone acetate 50 MG/ML Injectable Suspension [Lunelle]",
+        "tty": "SBD",
+        "isMultipleIngredient": "YES",
+        "isBranded": "YES"
+      },
+      "definitionalFeatures": {
+        "ingredientAndStrength": [
+          {
+            "baseRxcui": "4083",
+            "baseName": "estradiol",
+            "bossRxcui": "1000146",
+            "bossName": "estradiol cypionate",
+            "activeIngredientRxcui": "1000146",
+            "activeIngredientName": "estradiol cypionate",
+            "moietyRxcui": "4083",
+            "moietyName": "estradiol",
+            "numeratorValue": "10",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          },
+          {
+            "baseRxcui": "6691",
+            "baseName": "medroxyprogesterone",
+            "bossRxcui": "1000112",
+            "bossName": "medroxyprogesterone acetate",
+            "activeIngredientRxcui": "1000112",
+            "activeIngredientName": "medroxyprogesterone acetate",
+            "moietyRxcui": "6691",
+            "moietyName": "medroxyprogesterone",
+            "numeratorValue": "50",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          }
+        ],
+        "doseFormConcept": [
+          {
+            "doseFormRxcui": "316950",
+            "doseFormName": "Injectable Suspension"
+          }
+        ],
+        "doseFormGroupConcept": [
+          {
+            "doseFormGroupRxcui": "1151126",
+            "doseFormGroupName": "Injectable Product"
+          }
+        ]
+      },
+      "pack": {},
+      "derivedConcepts": {
+        "ingredientConcept": [
+          {
+            "ingredientRxcui": "4083",
+            "ingredientName": "estradiol"
+          },
+          {
+            "ingredientRxcui": "6691",
+            "ingredientName": "medroxyprogesterone"
+          }
+        ],
+        "scdConcept": {
+          "scdConceptRxcui": "1000149",
+          "scdConceptName": "estradiol cypionate 10 MG/ML / medroxyprogesterone acetate 50 MG/ML Injectable Suspension"
+        }
+      }
+    }
+  }
+}

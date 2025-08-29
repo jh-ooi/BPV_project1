@@ -1,0 +1,157 @@
+{
+  "created_at": "2025-08-22T09:51:43.513459+00:00",
+  "elapsed": 1.290039,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Fri, 22 Aug 2025 09:51:43 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.4"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000588/historystatus.json"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxcui/1000588/historystatus.json",
+  "_decoded_content": {
+    "rxcuiStatusHistory": {
+      "metaData": {
+        "status": "Obsolete",
+        "source": "RXNORM",
+        "releaseStartDate": "092010",
+        "releaseEndDate": "",
+        "isCurrent": "NO",
+        "activeStartDate": "092010",
+        "activeEndDate": "122018",
+        "remappedDate": ""
+      },
+      "attributes": {
+        "rxcui": "1000588",
+        "name": "malachite green 0.0001 MG/ML / metronidazole 0.005 MG/ML / microcrystalline cellulose 0.00763 MG/ML / trichlorfon 0.00025 MG/ML Topical Solution [Sentry AQ Mardel Clout]",
+        "tty": "SBD",
+        "isMultipleIngredient": "YES",
+        "isBranded": "YES"
+      },
+      "definitionalFeatures": {
+        "ingredientAndStrength": [
+          {
+            "baseRxcui": "1000577",
+            "baseName": "microcrystalline cellulose",
+            "bossRxcui": "1000577",
+            "bossName": "microcrystalline cellulose",
+            "activeIngredientRxcui": "",
+            "activeIngredientName": "",
+            "moietyRxcui": "",
+            "moietyName": "",
+            "numeratorValue": "0.00763",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          },
+          {
+            "baseRxcui": "1000581",
+            "baseName": "trichlorfon",
+            "bossRxcui": "1000581",
+            "bossName": "trichlorfon",
+            "activeIngredientRxcui": "",
+            "activeIngredientName": "",
+            "moietyRxcui": "",
+            "moietyName": "",
+            "numeratorValue": "0.00025",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          },
+          {
+            "baseRxcui": "6922",
+            "baseName": "metronidazole",
+            "bossRxcui": "6922",
+            "bossName": "metronidazole",
+            "activeIngredientRxcui": "",
+            "activeIngredientName": "",
+            "moietyRxcui": "",
+            "moietyName": "",
+            "numeratorValue": "0.005",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          },
+          {
+            "baseRxcui": "896038",
+            "baseName": "malachite green",
+            "bossRxcui": "896038",
+            "bossName": "malachite green",
+            "activeIngredientRxcui": "",
+            "activeIngredientName": "",
+            "moietyRxcui": "",
+            "moietyName": "",
+            "numeratorValue": "0.0001",
+            "numeratorUnit": "MG",
+            "denominatorValue": "1",
+            "denominatorUnit": "ML"
+          }
+        ],
+        "doseFormConcept": [
+          {
+            "doseFormRxcui": "316986",
+            "doseFormName": "Topical Solution"
+          }
+        ],
+        "doseFormGroupConcept": [
+          {
+            "doseFormGroupRxcui": "1151122",
+            "doseFormGroupName": "Topical Product"
+          }
+        ]
+      },
+      "pack": {},
+      "derivedConcepts": {
+        "ingredientConcept": [
+          {
+            "ingredientRxcui": "1000577",
+            "ingredientName": "microcrystalline cellulose"
+          },
+          {
+            "ingredientRxcui": "1000581",
+            "ingredientName": "trichlorfon"
+          },
+          {
+            "ingredientRxcui": "6922",
+            "ingredientName": "metronidazole"
+          },
+          {
+            "ingredientRxcui": "896038",
+            "ingredientName": "malachite green"
+          }
+        ],
+        "scdConcept": {
+          "scdConceptRxcui": "1000584",
+          "scdConceptName": "malachite green 0.0001 MG/ML / metronidazole 0.005 MG/ML / microcrystalline cellulose 0.00763 MG/ML / trichlorfon 0.00025 MG/ML Topical Solution"
+        }
+      }
+    }
+  }
+}

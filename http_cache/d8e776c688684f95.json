@@ -1,0 +1,70 @@
+{
+  "created_at": "2025-08-22T10:26:56.440655+00:00",
+  "elapsed": 2.034619,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Fri, 22 Aug 2025 10:26:56 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.4"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxcui/151802/historystatus.json"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxcui/151802/historystatus.json",
+  "_decoded_content": {
+    "rxcuiStatusHistory": {
+      "metaData": {
+        "status": "Obsolete",
+        "source": "RXNORM",
+        "releaseStartDate": "062005",
+        "releaseEndDate": "",
+        "isCurrent": "NO",
+        "activeStartDate": "062005",
+        "activeEndDate": "062025",
+        "remappedDate": ""
+      },
+      "attributes": {
+        "rxcui": "151802",
+        "name": "Fucidin",
+        "tty": "BN",
+        "isMultipleIngredient": "NO",
+        "isBranded": "YES"
+      },
+      "definitionalFeatures": {},
+      "pack": {},
+      "derivedConcepts": {
+        "ingredientConcept": [
+          {
+            "ingredientRxcui": "113608",
+            "ingredientName": "fusidate"
+          }
+        ]
+      }
+    }
+  }
+}

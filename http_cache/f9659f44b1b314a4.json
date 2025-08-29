@@ -1,0 +1,759 @@
+{
+  "created_at": "2025-08-25T10:20:28.084162+00:00",
+  "elapsed": 2.031526,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Mon, 25 Aug 2025 10:20:28 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C02&relaSource=ATC"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxclass/classMembers.json?classId=C02&relaSource=ATC",
+  "_decoded_content": {
+    "drugMemberGroup": {
+      "drugMember": [
+        {
+          "minConcept": {
+            "rxcui": "10828",
+            "name": "trimethaphan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02BA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "trimetaphan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1439816",
+            "name": "riociguat",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KX05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "riociguat"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1442132",
+            "name": "macitentan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KX04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "macitentan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "1523",
+            "name": "bethanidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CC01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "betanidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "235829",
+            "name": "methoserpidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AA06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "methoserpidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2599",
+            "name": "clonidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AC01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "clonidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2631887",
+            "name": "macitentan / tadalafil",
+            "tty": "MIN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KX54"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "macitentan and tadalafil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "266604",
+            "name": "metyrosine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "metirosine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2678930",
+            "name": "sotatercept",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KX06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "sotatercept"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "2679059",
+            "name": "aprocitentan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KN01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "aprocitentan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "30257",
+            "name": "moxonidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AC05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "moxonidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "3118",
+            "name": "debrisoquin",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CC04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "debrisoquine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "3327",
+            "name": "diazoxide",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02DA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "diazoxide"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "33717",
+            "name": "pinacidil",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02DG01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "pinacidil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "3409",
+            "name": "dihydralazine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02DB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "dihydralazine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "358274",
+            "name": "ambrisentan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KX02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "ambrisentan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "39230",
+            "name": "urapidil",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CA06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "urapidil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "40114",
+            "name": "guanfacine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AC02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "guanfacine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "49276",
+            "name": "doxazosin",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CA04"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "doxazosin"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "5036",
+            "name": "guanethidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CC02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "guanethidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "5470",
+            "name": "hydralazine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02DB02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "hydralazine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "55679",
+            "name": "rilmenidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AC06"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "rilmenidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "5784",
+            "name": "indoramin",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "indoramin"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6131",
+            "name": "ketanserin",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KD01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "ketanserin"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "62174",
+            "name": "deserpidine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AA05"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "deserpidine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6673",
+            "name": "mecamylamine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02BB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "mecamylamine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6876",
+            "name": "methyldopa",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AB01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "methyldopa (levorotatory)"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "6984",
+            "name": "minoxidil",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02DC01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "minoxidil"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "7476",
+            "name": "nitroprusside",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02DD01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "nitroprusside"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "75207",
+            "name": "bosentan",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KX01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "bosentan"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "7930",
+            "name": "pargyline",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02KC01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "pargyline"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "8629",
+            "name": "prazosin",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02CA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "prazosin"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "9259",
+            "name": "rescinnamine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AA01"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "rescinnamine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        },
+        {
+          "minConcept": {
+            "rxcui": "9260",
+            "name": "reserpine",
+            "tty": "IN"
+          },
+          "nodeAttr": [
+            {
+              "attrName": "SourceId",
+              "attrValue": "C02AA02"
+            },
+            {
+              "attrName": "SourceName",
+              "attrValue": "reserpine"
+            },
+            {
+              "attrName": "Relation",
+              "attrValue": "INDIRECT"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

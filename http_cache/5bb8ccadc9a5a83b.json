@@ -1,0 +1,59 @@
+{
+  "created_at": "2025-08-26T06:10:21.081842+00:00",
+  "elapsed": 1.219356,
+  "encoding": "utf-8",
+  "headers": {
+    "Access-Control-Allow-Headers": "*",
+    "Access-Control-Allow-Origin": "*",
+    "Cache-Control": "public, max-age=300, must-revalidate",
+    "Connection": "keep-alive",
+    "Content-Encoding": "gzip",
+    "Content-Security-Policy": "object-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;",
+    "Content-Type": "application/json;charset=utf-8",
+    "Date": "Tue, 26 Aug 2025 06:10:20 GMT",
+    "ETag": "W/\"20AA_250804F;1753892432;3.1.335\"",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "Transfer-Encoding": "chunked",
+    "Vary": "Accept",
+    "X-Cache-Status": "MISS",
+    "X-Content-Type-Options": "nosniff",
+    "X-Download-Options": "noopen",
+    "X-Frame-Options": "DENY",
+    "X-Permitted-Cross-Domain-Policies": "none",
+    "X-XSS-Protection": "1; mode=block"
+  },
+  "reason": "OK",
+  "request": {
+    "body": "",
+    "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate",
+      "Connection": "keep-alive",
+      "User-Agent": "python-requests/2.32.5"
+    },
+    "method": "GET",
+    "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?relaSource=ATC&rxcui=152440"
+  },
+  "status_code": 200,
+  "url": "https://rxnav.nlm.nih.gov/REST/rxclass/class/byRxcui.json?relaSource=ATC&rxcui=152440",
+  "_decoded_content": {
+    "rxclassDrugInfoList": {
+      "rxclassDrugInfo": [
+        {
+          "minConcept": {
+            "rxcui": "6185",
+            "name": "labetalol",
+            "tty": "IN"
+          },
+          "rxclassMinConceptItem": {
+            "classId": "C07AG",
+            "className": "Alpha and beta blocking agents",
+            "classType": "ATC1-4"
+          },
+          "rela": "",
+          "relaSource": "ATC"
+        }
+      ]
+    }
+  }
+}
