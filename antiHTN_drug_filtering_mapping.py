@@ -145,7 +145,7 @@ def class_from_ATC(ATC: set)->set:
 
 def main():
     # === load the RxNorm potential antiHTN drug list ===
-    df = pd.read_csv("antiHTN_drug_allBRANDs_ingredients_list2.csv", low_memory=False)
+    df = pd.read_csv("antiHTN_drug_allBRANDs_ingredients_list.csv", low_memory=False)
     # OBJECT_NAME = df['name']
     # OBJECT_RXCUI = df['rxcui']
     # OBJECT_STATUS = df['status']
@@ -187,7 +187,7 @@ def main():
                 })
 
     df_kept = pd.DataFrame(kept_rows)
-    df_kept.to_csv("antiHTN_drug_filtered_MAPPING2.csv", index=False)
+    df_kept.to_csv("antiHTN_drug_filtered_MAPPING.csv", index=False)
 
 if __name__ == "__main__":
     main()
@@ -207,23 +207,3 @@ if __name__ == "__main__":
     # print('final')
     # print(ING_NAME)
     # print(ING_ATC_ID)
-
-# in the list,
-# drop_list = {
-#     "bepridil", "bethanidine", "betanidine", "canrenoate potassium", "potassium canrenoate",
-#     "canrenone", "deserpidine", "rescinnamine", "reserpine", "methoserpidine", "rauzide",
-#     "serpasil", "serpazide", "hydroserpine", "diazoxide", "proglycem", "ethacrynic acid",
-#     "fendiline", "lidoflazine", "gallopamil", "perhexiline", "mibefradil", "finerenone",
-#     "mersalyl", "metyrosine", "metirosine", "nitroprusside", "pargyline", "sotalol",
-#     "theobromine", "trimethaphan", "trimetaphan",
-#     "timolol", "timoptic", "timoptol", "istalol", "betimol", "betoptic s", "ocupress",
-#     "semintra", "cardalis", "entresto", "sparsentan", "filspari",
-#     "hemangeol", "rapiblyk", "onyda", "vykat", "froop"
-# }
-#
-# df3 = pd.read_csv("antiHTN_drug_filtered_MAPPING3.csv")
-# # Filter out non-antihypertensives
-# df_filtered = df3[~df3["name"].str.lower().isin(drop_list)]
-#
-# # Save or overwrite the cleaned table
-# df_filtered.to_csv("antiHTN_drug_filtered_CLEAN.csv", index=False)
