@@ -1,10 +1,11 @@
 name,rxcui,status
 acebutolol,149,ingredient
+aliskiren,325646,ingredient
 alprenolol,597,ingredient
 amiloride,644,ingredient
+amlodipine,17767,ingredient
 aprocitentan,2679059,ingredient
 atenolol,1202,ingredient
-azilsartan medoxomil,1091642,ingredient
 benazepril,18867,ingredient
 bendroflumethiazide,1369,ingredient
 bepridil,1436,ingredient
@@ -16,13 +17,10 @@ bopindolol,19605,ingredient
 bumetanide,1808,ingredient
 bupranolol,1817,ingredient
 candesartan,214354,ingredient
-canrenoate potassium,1981,ingredient
-potassium canrenoate,1981,ingredient
 canrenone,1982,ingredient
 captopril,1998,ingredient
 carteolol,2116,ingredient
 carvedilol,20352,ingredient
-celecoxib,140587,ingredient
 celiprolol,20498,ingredient
 chlorothiazide,2396,ingredient
 chlorthalidone,2409,ingredient
@@ -46,7 +44,6 @@ enalapril,3827,ingredient
 eplerenone,298869,ingredient
 eprosartan,83515,ingredient
 esmolol,49737,ingredient
-ethacrynic acid,4109,ingredient
 felodipine,4316,ingredient
 fendiline,4327,ingredient
 finerenone,2562811,ingredient
@@ -56,6 +53,7 @@ gallopamil,4648,ingredient
 guanethidine,5036,ingredient
 guanfacine,40114,ingredient
 hydralazine,5470,ingredient
+hydrochlorothiazide,5487,ingredient
 hydroflumethiazide,5495,ingredient
 imidapril,60245,ingredient
 indapamide,5764,ingredient
@@ -90,6 +88,7 @@ mibefradil,83213,ingredient
 moexipril,30131,ingredient
 moxonidine,30257,ingredient
 nadolol,7226,ingredient
+nebivolol,31555,ingredient
 nicardipine,7396,ingredient
 nifedipine,7417,ingredient
 nilvadipine,53692,ingredient
@@ -97,7 +96,6 @@ nimodipine,7426,ingredient
 nisoldipine,7435,ingredient
 nitrendipine,7441,ingredient
 nitroprusside,7476,ingredient
-olmesartan medoxomil,118463,ingredient
 oxprenolol,7801,ingredient
 pargyline,7930,ingredient
 penbutolol,7973,ingredient
@@ -107,8 +105,6 @@ pinacidil,33717,ingredient
 pindolol,8332,ingredient
 piretanide,33770,ingredient
 polythiazide,8565,ingredient
-potassium,8588,ingredient
-kalium,8588,ingredient
 practolol,8620,ingredient
 prazosin,8629,ingredient
 propranolol,8787,ingredient
@@ -135,332 +131,358 @@ trichlormethiazide,10772,ingredient
 trimethaphan,10828,ingredient
 trimetaphan,10828,ingredient
 urapidil,39230,ingredient
+valsartan,69749,ingredient
 verapamil,11170,ingredient
 xipamide,11371,ingredient
 zofenopril,39990,ingredient
-Kapvay,1013931,active
-Nexiclon,1050312,active
-Matzim,1091620,active
-Twynsta,1372734,active
-Edarbyclor,1372759,active
-Vecamyl,1373003,active
-Accuretic,151293,active
-Aldactone,151317,active
-Corgard,151549,active
-Cozaar,151558,active
-Demser,151594,active
-Inderal,151890,active
-Tenormin,152413,active
-Trandate,152440,active
-Avapro,153668,active
-Prestalia,1600717,active
-Aldactazide,17276,active
-Vaseretic,175128,active
-Cardura,196468,active
-Zestril,196472,active
-Nimotop,196516,active
-Tiadylt,1988303,active
-Lasix,202991,active
-Dyrenium,203238,active
-Thalitone,203477,active
-Isoptin,203489,active
-Calan,203490,active
-Cardizem,203494,active
-Bumex,203538,active
-Jynarque,2044350,active
-Kapspargo,2047761,active
-Consensi,2049588,active
-Atacand,215458,active
-Celebrex,215927,active
-Clorpres,216099,active
-Coreg,216221,active
-Hyzaar,217681,active
-Lopressor HCT,218072,active
-Lotensin,218088,active
-Lotensin HCT,218089,active
-Lotrel,218090,active
-Micardis,218353,active
-Sular,220081,active
-Tiazac,220309,active
-Verelan,220778,active
-Betapace,224909,active
-Vasotec,224921,active
-Dyazide,23742,active
-Conjupri,2377360,active
-Kerendia,2562817,active
-Cardalis,2566854,active
-Seglentis,2588479,active
-Soaanz,2589872,active
-Aceon,261438,active
-Avalide,261454,active
-Furoscix,2621024,active
-Altace,262418,active
-Tryvio,2679065,active
-Hemiclor,2709674,active
-Vykat,2711550,active
-Atacand HCT,284662,active
-Micardis-HCT,284780,active
-Sorine,284871,active
-Bidil,303838,active
-Inspra,342280,active
-Tenoretic,37789,active
-Taztia,405349,active
-Cartia,491095,active
-Maxzide,52440,active
-Dilt,540618,active
-Afeditab CR,542720,active
-Diltzac,629300,active
-Minipress,71515,active
-Accupril,72210,active
-Ziac,75038,active
-Samsca,849828,active
-InnoPran,856468,active
-Zestoretic,85783,active
-Toprol,865575,active
-Trasicor,10736,obsolete
-Corgaretic,1372687,obsolete
-Metatensin,1372690,obsolete
-Moduretic,1372699,obsolete
-Dutoprol,1372709,obsolete
-Diupres,1372711,obsolete
-Monopril-HCT,1372715,obsolete
-Aldoclor,1372718,obsolete
-Moduret,1372719,obsolete
-Hydropres,1372720,obsolete
-Oreticyl,1372735,obsolete
-Corzide,1372756,obsolete
-Adalat,151131,obsolete
-Adalat LA,151133,obsolete
-Angiopine,151135,obsolete
-Angiopine MR,151136,obsolete
-Calanif,151137,obsolete
-Calcilat,151138,obsolete
-Cardilate MR,151139,obsolete
-Nifelease,151141,obsolete
-Angiozem,151146,obsolete
-Britiazim,151148,obsolete
-Metazem,151153,obsolete
-Slozem,151154,obsolete
-Tildiem,151155,obsolete
-Tildiem LA,151157,obsolete
-Accupro,151292,obsolete
-Acepril,151294,obsolete
-Adalate,151300,obsolete
-Adalate LP,151301,obsolete
-Alphavase,151333,obsolete
-Angilol,151355,obsolete
-Antipressan,151360,obsolete
-Aprinox,151364,obsolete
-Apsolol,151367,obsolete
-Arbralene,151369,obsolete
-Arelix,151370,obsolete
-Aridil,151371,obsolete
-Atenix,151387,obsolete
-AtenixCo,151388,obsolete
-Avlocardyl Retard,151393,obsolete
-Baratol,151402,obsolete
-Berkatens,151425,obsolete
-Berkolol,151426,obsolete
-Berkozide,151427,obsolete
-Beta-Cardone,151430,obsolete
-Beta-Prograne,151431,obsolete
-Betaloc,151435,obsolete
-Betim,151437,obsolete
-Capoten,151482,obsolete
-Carace,151486,obsolete
-Carace Plus,151487,obsolete
-Cardinol,151492,obsolete
-Celectol,151499,obsolete
-Declinax,151586,obsolete
-Doralese,151661,obsolete
-Dryptal,151670,obsolete
-Emcor,151697,obsolete
-Emcor LS,151698,obsolete
-Eucardic,151723,obsolete
-Froop,151797,obsolete
-Frusid,151801,obsolete
-Half Beta-Prograne,151841,obsolete
-Hygroton,151877,obsolete
-Innovace,151904,obsolete
-Labrocol,151948,obsolete
-Lopranol LA,151990,obsolete
-Monocor,152072,obsolete
-Natrilix,152098,obsolete
-Neo-Bendromax,152102,obsolete
-Neo-NaClex,152105,obsolete
-Probeta LA,152253,obsolete
-Propanix,152258,obsolete
-Rusyde,152329,obsolete
-Securon,152351,obsolete
-Sloprolol,152362,obsolete
-Spiretic,152376,obsolete
-Spiroctan,152378,obsolete
-Spirolone,152380,obsolete
-Spirospare,152381,obsolete
-Tenchlor,152409,obsolete
-Totamol,152436,obsolete
-Totaretic,152437,obsolete
-Trasicor Retard,152442,obsolete
-Vascace,152491,obsolete
-Xuret,152519,obsolete
-Zida-Co,152526,obsolete
-Kentovace,152664,obsolete
-Hypaneze,152747,obsolete
-Physiotens,152968,obsolete
-Frusemek,153001,obsolete
-Ecopace,153278,obsolete
-Nifedotard 20MR,153309,obsolete
-Kaplon,153314,obsolete
-Verapress MR,153370,obsolete
-Cozaar-Comp,153381,obsolete
-Hypapril,153463,obsolete
-Genalat Retard,153587,obsolete
-Zanidip,153682,obsolete
-Tarka,153752,obsolete
-Calazem,153790,obsolete
-Half Propatard LA,153819,obsolete
-Propatard LA,153820,obsolete
-Nifedipress MR 10,153915,obsolete
-Renitec,154991,obsolete
-Slow Trasicor,154995,obsolete
-Blocadren,1627,obsolete
-Esimil,166179,obsolete
-Regroton,169050,obsolete
-Kerlone,196460,obsolete
-Coversyl,196500,obsolete
-Capozide,20173,obsolete
-Apresoline,202463,obsolete
-Dixarit,202939,obsolete
-Visken,202978,obsolete
-Plendil,203016,obsolete
-Betadren,203340,obsolete
-Diucardin,203463,obsolete
-Saluron,203464,obsolete
-Zaroxolyn,203794,obsolete
-Mykrox,203798,obsolete
-Combipres,21455,obsolete
-Aquatensen,215388,obsolete
-Cartrol,215910,obsolete
-Demi-Regroton,216445,obsolete
-Diurese,216675,obsolete
-Diuretic Ap-Es,216676,obsolete
-Diutensen-R,216679,obsolete
-Enduronyl,216909,obsolete
-Flumezide,217159,obsolete
-Harmonyl,217493,obsolete
-Hydralazine Plus,217597,obsolete
-Hydrap-ES,217601,obsolete
-Hydro-Reserp,217608,obsolete
-Hydroserp,217642,obsolete
-Hydroserpine,217643,obsolete
-Inversine,217749,obsolete
-Lexxel,218006,obsolete
-Lo-Aqua,218055,obsolete
-Lozol,218102,obsolete
-Mallopress,218198,obsolete
-Marpres,218226,obsolete
-Mavik,218245,obsolete
-Metahydrin,218332,obsolete
-Minizide,218392,obsolete
-Prinzide,219412,obsolete
-Rauzide,219584,obsolete
-Renese-R,219615,obsolete
-Rondameth,219729,obsolete
-Salutensin,219797,obsolete
-Salutensin-Demi,219798,obsolete
-Senormin,219868,obsolete
-Ser-Ap-Es,219878,obsolete
-Serathide,219879,obsolete
-Serpazide,219881,obsolete
-Serpex,219882,obsolete
-Spironol,220004,obsolete
-Spironolactone Plus,220005,obsolete
-Teczem,220193,obsolete
-Tri-Hydroserpine,220391,obsolete
-Uni Serp,220620,obsolete
-Unipres,220669,obsolete
-Uniretic,220670,obsolete
-Zebeta,221002,obsolete
-Renese,224931,obsolete
-Enduron,224934,obsolete
-Monopril,225030,obsolete
-Serpasil,225191,obsolete
-Kentiazem,225524,obsolete
-Propanix LA,225652,obsolete
-Tensipine MR 10,225735,obsolete
-Tensipine MR 20,225736,obsolete
-Fortipine LA40,225810,obsolete
-Nifedipress MR 20,226034,obsolete
-Nimodrel MR 10,226097,obsolete
-Nimodrel MR 20,226098,obsolete
-Angiopine 40 LA,226132,obsolete
-Adalat AR,226176,obsolete
-Adalat Retard 10,226177,obsolete
-Adalat Retard 20,226178,obsolete
-Adipine MR 10,226182,obsolete
-Adipine MR 20,226183,obsolete
-Syscor MR,226246,obsolete
-Half Propanix LA,226250,obsolete
-Hypolar Retard 20,226289,obsolete
-Coroday MR,226537,obsolete
-Tensopril,226709,obsolete
-Nifopress Retard,227120,obsolete
-Naqua,227749,obsolete
-Dynacirc,258346,obsolete
-Teveten,262242,obsolete
-Clinium,262738,obsolete
-Inderide,27505,obsolete
-HHR,284747,obsolete
-Cordilox,2849,obsolete
-Tiamate,349677,obsolete
-Aquacot,352440,obsolete
-Teveten HCT,353022,obsolete
-Vasaten,361007,obsolete
-Diuresal,361777,obsolete
-Aluzine,361778,obsolete
-Frumax,361779,obsolete
-Frusetic,361780,obsolete
-Metoros,361784,obsolete
-Mepranix,361786,obsolete
-Cordilox MR,379563,obsolete
-Geangin,379566,obsolete
-Ethimil MR,379577,obsolete
-Calcicard,379789,obsolete
-Diatensec,379837,obsolete
-Laractone,379839,obsolete
-Calcipine,380902,obsolete
-Vasad,380904,obsolete
-Hyteneze,381151,obsolete
-Bedranol,381209,obsolete
-Betadur CR,381221,obsolete
-Half-Betadur CR,381223,obsolete
-Centyl,386147,obsolete
-Urizid,386152,obsolete
-Slow-Pren,386158,obsolete
-Tenoret,402925,obsolete
-Metenix,402957,obsolete
-Timolide,491231,obsolete
-Quinaretic,540370,obsolete
-Catacand,540784,obsolete
-Capropril,541019,obsolete
-Chlotride,541295,obsolete
-Pronol,541545,obsolete
-Nifediac,541600,obsolete
-Prinize,541943,obsolete
-Trandide,542122,obsolete
-Delone,542670,obsolete
-Furocot,542675,obsolete
-Lastolic,542683,obsolete
-Posicor,54980,obsolete
-Vascor,66977,obsolete
-Aldoril,688640,obsolete
-Midamor,6958,obsolete
-Tenex,71556,obsolete
-Diltia,831206,obsolete
-Dilacor,831221,obsolete
-Hydone Tablet,831698,obsolete
-Covera,901519,obsolete
-Apresazide,91825,obsolete
-Levatol,93113,obsolete
-Sectral,9631,obsolete
-Naturetin,991208,obsolete
+kapvay,1013931,active
+nexiclon,1050312,active
+matzim,1091620,active
+tribenzor,1372732,active
+exforge hct,1372733,active
+twynsta,1372734,active
+edarbyclor,1372759,active
+vecamyl,1373003,active
+tekturna hct,1430137,active
+accuretic,151293,active
+aldactone,151317,active
+corgard,151549,active
+cozaar,151558,active
+demser,151594,active
+inderal,151890,active
+tenormin,152413,active
+trandate,152440,active
+avapro,153668,active
+prestalia,1600717,active
+entresto,1656341,active
+aldactazide,17276,active
+vaseretic,175128,active
+cardura,196468,active
+zestril,196472,active
+nimotop,196516,active
+tiadylt,1988303,active
+lasix,202991,active
+dyrenium,203238,active
+thalitone,203477,active
+isoptin,203489,active
+calan,203490,active
+cardizem,203494,active
+bumex,203538,active
+jynarque,2044350,active
+kapspargo,2047761,active
+consensi,2049588,active
+atacand,215458,active
+clorpres,216099,active
+coreg,216221,active
+diovan,216652,active
+diovan hct,216653,active
+hyzaar,217681,active
+lopressor hct,218072,active
+lotensin,218088,active
+lotensin hct,218089,active
+lotrel,218090,active
+micardis,218353,active
+sular,220081,active
+tiazac,220309,active
+verelan,220778,active
+betapace,224909,active
+vasotec,224921,active
+dyazide,23742,active
+conjupri,2377360,active
+kerendia,2562817,active
+cardalis,2566854,active
+soaanz,2589872,active
+aceon,261438,active
+avalide,261454,active
+furoscix,2621024,active
+altace,262418,active
+tryvio,2679065,active
+hemiclor,2709674,active
+vykat,2711550,active
+atacand hct,284662,active
+micardis-hct,284780,active
+sorine,284871,active
+bidil,303838,active
+inspra,342280,active
+tenoretic,37789,active
+benicar hct,404880,active
+caduet,404914,active
+taztia,405349,active
+cartia,491095,active
+maxzide,52440,active
+dilt,540618,active
+afeditab cr,542720,active
+norvasc,58927,active
+diltzac,629300,active
+tekturna,700402,active
+minipress,71515,active
+accupril,72210,active
+exforge,722127,active
+azor,730862,active
+ziac,75038,active
+samsca,849828,active
+innopran,856468,active
+zestoretic,85783,active
+toprol,865575,active
+amturnide,1050799,obsolete
+trasicor,10736,obsolete
+corgaretic,1372687,obsolete
+metatensin,1372690,obsolete
+moduretic,1372699,obsolete
+tekamlo,1372707,obsolete
+dutoprol,1372709,obsolete
+diupres,1372711,obsolete
+monopril-hct,1372715,obsolete
+aldoclor,1372718,obsolete
+moduret,1372719,obsolete
+hydropres,1372720,obsolete
+oreticyl,1372735,obsolete
+corzide,1372756,obsolete
+adalat,151131,obsolete
+adalat la,151133,obsolete
+angiopine,151135,obsolete
+angiopine mr,151136,obsolete
+calanif,151137,obsolete
+calcilat,151138,obsolete
+cardilate mr,151139,obsolete
+nifelease,151141,obsolete
+angiozem,151146,obsolete
+britiazim,151148,obsolete
+metazem,151153,obsolete
+slozem,151154,obsolete
+tildiem,151155,obsolete
+tildiem la,151157,obsolete
+accupro,151292,obsolete
+acepril,151294,obsolete
+adalate,151300,obsolete
+adalate lp,151301,obsolete
+alphavase,151333,obsolete
+angilol,151355,obsolete
+antipressan,151360,obsolete
+aprinox,151364,obsolete
+apsolol,151367,obsolete
+arbralene,151369,obsolete
+arelix,151370,obsolete
+aridil,151371,obsolete
+atenix,151387,obsolete
+atenixco,151388,obsolete
+avlocardyl retard,151393,obsolete
+baratol,151402,obsolete
+berkatens,151425,obsolete
+berkolol,151426,obsolete
+berkozide,151427,obsolete
+beta-cardone,151430,obsolete
+beta-prograne,151431,obsolete
+betaloc,151435,obsolete
+betim,151437,obsolete
+capoten,151482,obsolete
+carace,151486,obsolete
+carace plus,151487,obsolete
+cardinol,151492,obsolete
+celectol,151499,obsolete
+declinax,151586,obsolete
+doralese,151661,obsolete
+dryptal,151670,obsolete
+emcor,151697,obsolete
+emcor ls,151698,obsolete
+eucardic,151723,obsolete
+froop,151797,obsolete
+frusid,151801,obsolete
+half beta-prograne,151841,obsolete
+hygroton,151877,obsolete
+innovace,151904,obsolete
+labrocol,151948,obsolete
+lopranol la,151990,obsolete
+monocor,152072,obsolete
+natrilix,152098,obsolete
+neo-bendromax,152102,obsolete
+neo-naclex,152105,obsolete
+probeta la,152253,obsolete
+propanix,152258,obsolete
+rusyde,152329,obsolete
+securon,152351,obsolete
+sloprolol,152362,obsolete
+spiretic,152376,obsolete
+spiroctan,152378,obsolete
+spirolone,152380,obsolete
+spirospare,152381,obsolete
+tenchlor,152409,obsolete
+totamol,152436,obsolete
+totaretic,152437,obsolete
+trasicor retard,152442,obsolete
+vascace,152491,obsolete
+xuret,152519,obsolete
+zida-co,152526,obsolete
+kentovace,152664,obsolete
+hypaneze,152747,obsolete
+physiotens,152968,obsolete
+frusemek,153001,obsolete
+ecopace,153278,obsolete
+nifedotard 20mr,153309,obsolete
+kaplon,153314,obsolete
+verapress mr,153370,obsolete
+cozaar-comp,153381,obsolete
+hypapril,153463,obsolete
+genalat retard,153587,obsolete
+zanidip,153682,obsolete
+tarka,153752,obsolete
+calazem,153790,obsolete
+half propatard la,153819,obsolete
+propatard la,153820,obsolete
+nifedipress mr 10,153915,obsolete
+renitec,154991,obsolete
+slow trasicor,154995,obsolete
+blocadren,1627,obsolete
+esimil,166179,obsolete
+regroton,169050,obsolete
+kerlone,196460,obsolete
+coversyl,196500,obsolete
+capozide,20173,obsolete
+apresoline,202463,obsolete
+dixarit,202939,obsolete
+visken,202978,obsolete
+plendil,203016,obsolete
+esidrix,203273,obsolete
+oretic,203275,obsolete
+hydrodiuril,203276,obsolete
+betadren,203340,obsolete
+diucardin,203463,obsolete
+saluron,203464,obsolete
+zaroxolyn,203794,obsolete
+mykrox,203798,obsolete
+combipres,21455,obsolete
+aquatensen,215388,obsolete
+carozide,215905,obsolete
+cartrol,215910,obsolete
+demi-regroton,216445,obsolete
+diaqua,216582,obsolete
+diurese,216675,obsolete
+diuretic ap-es,216676,obsolete
+diutensen-r,216679,obsolete
+enduronyl,216909,obsolete
+ezide,217049,obsolete
+flumezide,217159,obsolete
+harmonyl,217493,obsolete
+hydralazine plus,217597,obsolete
+hydrap-es,217601,obsolete
+hydro par,217606,obsolete
+hydro-reserp,217608,obsolete
+hydroserp,217642,obsolete
+hydroserpine,217643,obsolete
+inversine,217749,obsolete
+lexxel,218006,obsolete
+lo-aqua,218055,obsolete
+loqua,218073,obsolete
+lozol,218102,obsolete
+mallopress,218198,obsolete
+marpres,218226,obsolete
+mavik,218245,obsolete
+metahydrin,218332,obsolete
+microzide,218369,obsolete
+minizide,218392,obsolete
+prinzide,219412,obsolete
+rauzide,219584,obsolete
+renese-r,219615,obsolete
+rondameth,219729,obsolete
+salutensin,219797,obsolete
+salutensin-demi,219798,obsolete
+senormin,219868,obsolete
+ser-ap-es,219878,obsolete
+serathide,219879,obsolete
+serpazide,219881,obsolete
+serpex,219882,obsolete
+spironol,220004,obsolete
+spironolactone plus,220005,obsolete
+teczem,220193,obsolete
+tri-hydroserpine,220391,obsolete
+uni serp,220620,obsolete
+unipres,220669,obsolete
+uniretic,220670,obsolete
+zebeta,221002,obsolete
+renese,224931,obsolete
+enduron,224934,obsolete
+monopril,225030,obsolete
+serpasil,225191,obsolete
+kentiazem,225524,obsolete
+propanix la,225652,obsolete
+tensipine mr 10,225735,obsolete
+tensipine mr 20,225736,obsolete
+fortipine la40,225810,obsolete
+nifedipress mr 20,226034,obsolete
+nimodrel mr 10,226097,obsolete
+nimodrel mr 20,226098,obsolete
+angiopine 40 la,226132,obsolete
+adalat ar,226176,obsolete
+adalat retard 10,226177,obsolete
+adalat retard 20,226178,obsolete
+adipine mr 10,226182,obsolete
+adipine mr 20,226183,obsolete
+syscor mr,226246,obsolete
+half propanix la,226250,obsolete
+hypolar retard 20,226289,obsolete
+coroday mr,226537,obsolete
+tensopril,226709,obsolete
+nifopress retard,227120,obsolete
+naqua,227749,obsolete
+dynacirc,258346,obsolete
+teveten,262242,obsolete
+clinium,262738,obsolete
+inderide,27505,obsolete
+hhr,284747,obsolete
+cordilox,2849,obsolete
+tiamate,349677,obsolete
+aquacot,352440,obsolete
+aquazide h,352443,obsolete
+teveten hct,353022,obsolete
+vasaten,361007,obsolete
+diuresal,361777,obsolete
+aluzine,361778,obsolete
+frumax,361779,obsolete
+frusetic,361780,obsolete
+metoros,361784,obsolete
+mepranix,361786,obsolete
+cordilox mr,379563,obsolete
+geangin,379566,obsolete
+ethimil mr,379577,obsolete
+calcicard,379789,obsolete
+diatensec,379837,obsolete
+laractone,379839,obsolete
+calcipine,380902,obsolete
+vasad,380904,obsolete
+hyteneze,381151,obsolete
+bedranol,381209,obsolete
+betadur cr,381221,obsolete
+half-betadur cr,381223,obsolete
+centyl,386147,obsolete
+urizid,386152,obsolete
+slow-pren,386158,obsolete
+tenoret,402925,obsolete
+metenix,402957,obsolete
+timolide,491231,obsolete
+quinaretic,540370,obsolete
+catacand,540784,obsolete
+capropril,541019,obsolete
+chlotride,541295,obsolete
+pronol,541545,obsolete
+nifediac,541600,obsolete
+prinize,541943,obsolete
+trandide,542122,obsolete
+delone,542670,obsolete
+furocot,542675,obsolete
+lastolic,542683,obsolete
+hydrocot,542847,obsolete
+hydrokraft,542851,obsolete
+posicor,54980,obsolete
+vascor,66977,obsolete
+aldoril,688640,obsolete
+midamor,6958,obsolete
+tenex,71556,obsolete
+diltia,831206,obsolete
+dilacor,831221,obsolete
+hydone tablet,831698,obsolete
+valturna,864776,obsolete
+covera,901519,obsolete
+apresazide,91825,obsolete
+levatol,93113,obsolete
+sectral,9631,obsolete
+naturetin,991208,obsolete

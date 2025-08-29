@@ -30,17 +30,7 @@ def get_atc_id(rxcui_id: str):
 
             if ATC_classID:
                 atc_id.add((ingredientName, ATC_classID))
-            # print(ATC_classID)
-            # ingredientID = classDrug.get("minConcept").get("rxcui")
 
-            # print(ingredientName)
-            # print(ATC_classID)
-
-            # if ATC_classID and is_target_antihypertensive(ATC_classID):
-                # ing_name_set.add(ingredientName)
-                # atc_id.add((ingredientName, ATC_classID))
-                # print(f"name: {name}")
-                # print(f"classID: {classID}")
 
     # fallback: if no IN entries, try PIN (precise ingredient)
     if not atc_id:
@@ -49,6 +39,14 @@ def get_atc_id(rxcui_id: str):
             ingredient_type = classDrug.get("minConcept").get("tty")
             # print(ingredient_type)
             if ingredient_type == "PIN":
+                minConceptItem = classDrug.get("rxclassMinConceptItem", {})
+                ATC_classID = minConceptItem.get("classId")
+                # if is_target_antihypertensive((ATC_classID)):
+                ingredientName = classDrug.get("minConcept").get("name")
+                if ATC_classID:
+                    atc_id.add((ingredientName, ATC_classID))
+
+            elif ingredient_type == "MIN":
                 minConceptItem = classDrug.get("rxclassMinConceptItem", {})
                 ATC_classID = minConceptItem.get("classId")
                 # if is_target_antihypertensive((ATC_classID)):
@@ -97,14 +95,17 @@ def keep_brand(pairs):
     return True
 
 def is_target_antihypertensive(atc_id) -> bool:
-    if atc_id.startswith(("C02A", "C02B", "C02C", "C02D", "C02K", "C03A", "C03B",
-                          "C03C", "C03D", "C03E","C07A", "C08C", "C08D", "C08E",
-                          "C09A", "C09C", "C09X")):
-        return True
+
     if atc_id.startswith("C02KX"):
         return False
     if atc_id.startswith("C09XX"):
         return False
+    if atc_id.startswith("C09DX"):
+        return False
+    if atc_id.startswith(("C02A", "C02B", "C02C", "C02D", "C02K", "C03A", "C03B",
+                          "C03C", "C03D", "C03E","C07A", "C08C", "C08D", "C08E",
+                          "C09A", "C09C", "C09X")):
+        return True
 
     return False
 
