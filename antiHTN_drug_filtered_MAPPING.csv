@@ -113,7 +113,6 @@ ramipril,35296,ingredient,ramipril,C09AA,ACEi,monotherapy
 rescinnamine,9259,ingredient,rescinnamine,C02AA,Other: centrally acting,monotherapy
 reserpine,9260,ingredient,reserpine,C02AA,Other: centrally acting,monotherapy
 rilmenidine,55679,ingredient,rilmenidine,C02AC,Other: centrally acting,monotherapy
-sotalol,9947,ingredient,sotalol,C07AA,Beta-Blocker,monotherapy
 spirapril,36908,ingredient,spirapril,C09AA,ACEi,monotherapy
 spironolactone,9997,ingredient,spironolactone,C03DA,Diuretics: potassium-sparing agent,monotherapy
 talinolol,37546,ingredient,talinolol,C07AB,Beta-Blocker,monotherapy
@@ -180,7 +179,6 @@ micardis,218353,active,telmisartan,C09CA,ARB,monotherapy
 sular,220081,active,nisoldipine,C08CA,CCB,monotherapy
 tiazac,220309,active,diltiazem,C08DB,CCB,monotherapy
 verelan,220778,active,verapamil,C08DA,CCB,monotherapy
-betapace,224909,active,sotalol,C07AA,Beta-Blocker,monotherapy
 vasotec,224921,active,enalapril,C09AA,ACEi,monotherapy
 dyazide,23742,active,"hydrochlorothiazide, triamterene","C03AA, C03DB","Diuretics: potassium-sparing agent, Diuretics: thiazide",combination of 2 drugs
 conjupri,2377360,active,levamlodipine,C08CA,CCB,monotherapy
@@ -196,7 +194,6 @@ hemiclor,2709674,active,chlorthalidone,C03BA,Diuretics: non-thiazide,monotherapy
 vykat,2711550,active,diazoxide,C02DA,Other: vasodilator,monotherapy
 atacand hct,284662,active,"candesartan, hydrochlorothiazide","C03AA, C09CA","ARB, Diuretics: thiazide",combination of 2 drugs
 micardis-hct,284780,active,"hydrochlorothiazide, telmisartan","C03AA, C09CA","ARB, Diuretics: thiazide",combination of 2 drugs
-sorine,284871,active,sotalol,C07AA,Beta-Blocker,monotherapy
 inspra,342280,active,eplerenone,C03DA,Diuretics: potassium-sparing agent,monotherapy
 tenoretic,37789,active,"atenolol, chlorthalidone","C03BA, C07AB","Beta-Blocker, Diuretics: non-thiazide",combination of 2 drugs
 benicar hct,404880,active,"hydrochlorothiazide, olmesartan medoxomil","C03AA, C09CA","ARB, Diuretics: thiazide",combination of 2 drugs
@@ -263,7 +260,6 @@ baratol,151402,obsolete,indoramin,C02CA,Other: peripherally acting (alpha),monot
 berkatens,151425,obsolete,verapamil,C08DA,CCB,monotherapy
 berkolol,151426,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 berkozide,151427,obsolete,bendroflumethiazide,C03AA,Diuretics: thiazide,monotherapy
-beta-cardone,151430,obsolete,sotalol,C07AA,Beta-Blocker,monotherapy
 beta-prograne,151431,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 betaloc,151435,obsolete,metoprolol,C07AB,Beta-Blocker,monotherapy
 betim,151437,obsolete,timolol,C07AA,Beta-Blocker,monotherapy
