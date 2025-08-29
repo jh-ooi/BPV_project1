@@ -113,8 +113,10 @@ DISALLOWED_FORMS = (
     "injection", "intravenous", "iv", "intramuscular", "subcutaneous",
     "inhalation", "nasal", "rectal", "vaginal", "buccal", "sublingual",
     "irrigation", "spray", "drops", "solution", "suspension", "elixir",
-    "gel", "lotion", "cream", "ointment", "foam", "paste"
+    "gel", "lotion", "cream", "ointment", "foam", "paste", "liquid"
 )
+
+ALLOWED_FORMS = ("capsule", "tablet")
 
 # find obsolete brands from the ingredient list
 def fetch_all_brand(status:str):
@@ -144,14 +146,22 @@ def fetch_all_brand(status:str):
             # dropped_brand.append((brand, brand_rx))
             continue
 
-        kept = True
+        has_allowed = False
+        has_disallowed = False
+
         for sbd in brand_matched_sbd:
             sbd_low = sbd.lower()
             if any(form in sbd_low for form in DISALLOWED_FORMS):
-                kept = False
-                break
-        if kept:
+                has_disallowed = True
+            if any(term in sbd_low for term in ALLOWED_FORMS):
+                has_allowed = True
+
+        if has_allowed and has_disallowed:
             kept_brand.append((brand, brand_rx))
+        elif has_allowed and not has_disallowed:
+            kept_brand.append((brand, brand_rx))
+        elif not has_allowed and has_disallowed:
+            continue
 
     return kept_brand #a list of (bn_rxcui, brand_name) pairs.
 

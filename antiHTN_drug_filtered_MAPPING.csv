@@ -135,6 +135,7 @@ zofenopril,39990,ingredient,zofenopril,C09AA,ACEi,monotherapy
 kapvay,1013931,active,clonidine,C02AC,Other: centrally acting,monotherapy
 nexiclon,1050312,active,clonidine,C02AC,Other: centrally acting,monotherapy
 matzim,1091620,active,diltiazem,C08DB,CCB,monotherapy
+disal,1112198,active,furosemide,C03CA,Diuretics: loop diuretics,monotherapy
 tribenzor,1372732,active,"amlodipine, hydrochlorothiazide, olmesartan medoxomil","C03AA, C08CA, C09CA","ARB, CCB, Diuretics: thiazide",combination of 3 drugs
 exforge hct,1372733,active,"amlodipine, hydrochlorothiazide, valsartan","C03AA, C08CA, C09CA","ARB, CCB, Diuretics: thiazide",combination of 3 drugs
 twynsta,1372734,active,"amlodipine, telmisartan","C08CA, C09CA","ARB, CCB",combination of 2 drugs
@@ -153,17 +154,21 @@ avapro,153668,active,irbesartan,C09CA,ARB,monotherapy
 prestalia,1600717,active,"amlodipine, perindopril","C08CA, C09AA","ACEi, CCB",combination of 2 drugs
 aldactazide,17276,active,"hydrochlorothiazide, spironolactone","C03AA, C03DA","Diuretics: potassium-sparing agent, Diuretics: thiazide",combination of 2 drugs
 vaseretic,175128,active,"enalapril, hydrochlorothiazide","C03AA, C09AA","ACEi, Diuretics: thiazide",combination of 2 drugs
+byvalson,1798282,active,"nebivolol, valsartan","C07AB, C09CA","ARB, Beta-Blocker",combination of 2 drugs
 cardura,196468,active,doxazosin,C02CA,Other: peripherally acting (alpha),monotherapy
 zestril,196472,active,lisinopril,C09AA,ACEi,monotherapy
 nimotop,196516,active,nimodipine,C08CA,CCB,monotherapy
 tiadylt,1988303,active,diltiazem,C08DB,CCB,monotherapy
 lasix,202991,active,furosemide,C03CA,Diuretics: loop diuretics,monotherapy
 dyrenium,203238,active,triamterene,C03DB,Diuretics: potassium-sparing agent,monotherapy
+lopressor,203344,active,metoprolol,C07AB,Beta-Blocker,monotherapy
+procardia,203423,active,nifedipine,C08CA,CCB,monotherapy
 thalitone,203477,active,chlorthalidone,C03BA,Diuretics: non-thiazide,monotherapy
 isoptin,203489,active,verapamil,C08DA,CCB,monotherapy
 calan,203490,active,verapamil,C08DA,CCB,monotherapy
 cardizem,203494,active,diltiazem,C08DB,CCB,monotherapy
 bumex,203538,active,bumetanide,C03CA,Diuretics: loop diuretics,monotherapy
+prinivil,203644,active,lisinopril,C09AA,ACEi,monotherapy
 kapspargo,2047761,active,metoprolol,C07AB,Beta-Blocker,monotherapy
 atacand,215458,active,candesartan,C09CA,ARB,monotherapy
 clorpres,216099,active,"chlorthalidone, clonidine","C02AC, C03BA","Diuretics: non-thiazide, Other: centrally acting",combination of 2 drugs
@@ -187,7 +192,6 @@ cardalis,2566854,active,"benazepril, spironolactone","C03DA, C09AA","ACEi, Diure
 soaanz,2589872,active,torsemide,C03CA,Diuretics: loop diuretics,monotherapy
 aceon,261438,active,perindopril,C09AA,ACEi,monotherapy
 avalide,261454,active,"hydrochlorothiazide, irbesartan","C03AA, C09CA","ARB, Diuretics: thiazide",combination of 2 drugs
-furoscix,2621024,active,furosemide,C03CA,Diuretics: loop diuretics,monotherapy
 altace,262418,active,ramipril,C09AA,ACEi,monotherapy
 tryvio,2679065,active,aprocitentan,C02KN,Other,monotherapy
 hemiclor,2709674,active,chlorthalidone,C03BA,Diuretics: non-thiazide,monotherapy
@@ -202,6 +206,7 @@ cartia,491095,active,diltiazem,C08DB,CCB,monotherapy
 maxzide,52440,active,"hydrochlorothiazide, triamterene","C03AA, C03DB","Diuretics: potassium-sparing agent, Diuretics: thiazide",combination of 2 drugs
 dilt,540618,active,diltiazem,C08DB,CCB,monotherapy
 afeditab cr,542720,active,nifedipine,C08CA,CCB,monotherapy
+salix - substance,545038,active,furosemide,C03CA,Diuretics: loop diuretics,monotherapy
 norvasc,58927,active,amlodipine,C08CA,CCB,monotherapy
 diltzac,629300,active,diltiazem,C08DB,CCB,monotherapy
 tekturna,700402,active,aliskiren,C09XA,Other RAS,monotherapy
@@ -210,8 +215,10 @@ accupril,72210,active,quinapril,C09AA,ACEi,monotherapy
 exforge,722127,active,"amlodipine, valsartan","C08CA, C09CA","ARB, CCB",combination of 2 drugs
 azor,730862,active,"amlodipine, olmesartan medoxomil","C08CA, C09CA","ARB, CCB",combination of 2 drugs
 ziac,75038,active,"bisoprolol, hydrochlorothiazide","C03AA, C07AB","Beta-Blocker, Diuretics: thiazide",combination of 2 drugs
+bystolic,751613,active,nebivolol,C07AB,Beta-Blocker,monotherapy
 innopran,856468,active,propranolol,C07AA,Beta-Blocker,monotherapy
 zestoretic,85783,active,"hydrochlorothiazide, lisinopril","C03AA, C09AA","ACEi, Diuretics: thiazide",combination of 2 drugs
+intuniv,862007,active,guanfacine,C02AC,Other: centrally acting,monotherapy
 toprol,865575,active,metoprolol,C07AB,Beta-Blocker,monotherapy
 amturnide,1050799,obsolete,"aliskiren, amlodipine, hydrochlorothiazide","C03AA, C08CA, C09XA","CCB, Diuretics: thiazide, Other RAS",combination of 3 drugs
 trasicor,10736,obsolete,oxprenolol,C07AA,Beta-Blocker,monotherapy
@@ -245,6 +252,7 @@ accupro,151292,obsolete,quinapril,C09AA,ACEi,monotherapy
 acepril,151294,obsolete,captopril,C09AA,ACEi,monotherapy
 adalate,151300,obsolete,nifedipine,C08CA,CCB,monotherapy
 adalate lp,151301,obsolete,nifedipine,C08CA,CCB,monotherapy
+aldomet,151318,obsolete,methyldopa,C02AB,Other: centrally acting,monotherapy
 alphavase,151333,obsolete,prazosin,C02CA,Other: peripherally acting (alpha),monotherapy
 angilol,151355,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 antipressan,151360,obsolete,atenolol,C07AB,Beta-Blocker,monotherapy
@@ -263,6 +271,7 @@ berkozide,151427,obsolete,bendroflumethiazide,C03AA,Diuretics: thiazide,monother
 beta-prograne,151431,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 betaloc,151435,obsolete,metoprolol,C07AB,Beta-Blocker,monotherapy
 betim,151437,obsolete,timolol,C07AA,Beta-Blocker,monotherapy
+burinex,151464,obsolete,bumetanide,C03CA,Diuretics: loop diuretics,monotherapy
 capoten,151482,obsolete,captopril,C09AA,ACEi,monotherapy
 carace,151486,obsolete,lisinopril,C09AA,ACEi,monotherapy
 carace plus,151487,obsolete,"hydrochlorothiazide, lisinopril","C03AA, C09AA","ACEi, Diuretics: thiazide",combination of 2 drugs
@@ -295,6 +304,7 @@ spiroctan,152378,obsolete,spironolactone,C03DA,Diuretics: potassium-sparing agen
 spirolone,152380,obsolete,spironolactone,C03DA,Diuretics: potassium-sparing agent,monotherapy
 spirospare,152381,obsolete,spironolactone,C03DA,Diuretics: potassium-sparing agent,monotherapy
 tenchlor,152409,obsolete,"atenolol, chlorthalidone","C03BA, C07AB","Beta-Blocker, Diuretics: non-thiazide",combination of 2 drugs
+torem,152434,obsolete,torsemide,C03CA,Diuretics: loop diuretics,monotherapy
 totamol,152436,obsolete,atenolol,C07AB,Beta-Blocker,monotherapy
 totaretic,152437,obsolete,"atenolol, chlorthalidone","C03BA, C07AB","Beta-Blocker, Diuretics: non-thiazide",combination of 2 drugs
 trasicor retard,152442,obsolete,oxprenolol,C07AA,Beta-Blocker,monotherapy
@@ -320,6 +330,7 @@ propatard la,153820,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 nifedipress mr 10,153915,obsolete,nifedipine,C08CA,CCB,monotherapy
 renitec,154991,obsolete,enalapril,C09AA,ACEi,monotherapy
 slow trasicor,154995,obsolete,oxprenolol,C07AA,Beta-Blocker,monotherapy
+normodyne,155033,obsolete,labetalol,C07AG,Beta-Blocker,monotherapy
 blocadren,1627,obsolete,timolol,C07AA,Beta-Blocker,monotherapy
 esimil,166179,obsolete,"guanethidine, hydrochlorothiazide","C02CC, C03AA","Diuretics: thiazide, Other: peripherally acting (alpha)",combination of 2 drugs
 regroton,169050,obsolete,"chlorthalidone, reserpine","C02AA, C03BA","Diuretics: non-thiazide, Other: centrally acting",combination of 2 drugs
@@ -336,6 +347,7 @@ hydrodiuril,203276,obsolete,hydrochlorothiazide,C03AA,Diuretics: thiazide,monoth
 betadren,203340,obsolete,pindolol,C07AA,Beta-Blocker,monotherapy
 diucardin,203463,obsolete,hydroflumethiazide,C03AA,Diuretics: thiazide,monotherapy
 saluron,203464,obsolete,hydroflumethiazide,C03AA,Diuretics: thiazide,monotherapy
+ismelin,203673,obsolete,guanethidine,C02CC,Other: peripherally acting (alpha),monotherapy
 zaroxolyn,203794,obsolete,metolazone,C03BA,Diuretics: non-thiazide,monotherapy
 mykrox,203798,obsolete,metolazone,C03BA,Diuretics: non-thiazide,monotherapy
 combipres,21455,obsolete,"chlorthalidone, clonidine","C02AC, C03BA","Diuretics: non-thiazide, Other: centrally acting",combination of 2 drugs
@@ -386,6 +398,7 @@ tri-hydroserpine,220391,obsolete,"hydralazine, hydrochlorothiazide, reserpine","
 uni serp,220620,obsolete,"hydralazine, hydrochlorothiazide, reserpine","C02AA, C02DB, C03AA","Diuretics: thiazide, Other: centrally acting, Other: vasodilator",combination of 3 drugs
 unipres,220669,obsolete,"hydralazine, hydrochlorothiazide, reserpine","C02AA, C02DB, C03AA","Diuretics: thiazide, Other: centrally acting, Other: vasodilator",combination of 3 drugs
 uniretic,220670,obsolete,"hydrochlorothiazide, moexipril","C03AA, C09AA","ACEi, Diuretics: thiazide",combination of 2 drugs
+univasc,220675,obsolete,moexipril,C09AA,ACEi,monotherapy
 zebeta,221002,obsolete,bisoprolol,C07AB,Beta-Blocker,monotherapy
 renese,224931,obsolete,polythiazide,C03AA,Diuretics: thiazide,monotherapy
 enduron,224934,obsolete,methyclothiazide,C03AA,Diuretics: thiazide,monotherapy
@@ -395,6 +408,7 @@ kentiazem,225524,obsolete,diltiazem,C08DB,CCB,monotherapy
 propanix la,225652,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 tensipine mr 10,225735,obsolete,nifedipine,C08CA,CCB,monotherapy
 tensipine mr 20,225736,obsolete,nifedipine,C08CA,CCB,monotherapy
+univer,225752,obsolete,verapamil,C08DA,CCB,monotherapy
 fortipine la40,225810,obsolete,nifedipine,C08CA,CCB,monotherapy
 nifedipress mr 20,226034,obsolete,nifedipine,C08CA,CCB,monotherapy
 nimodrel mr 10,226097,obsolete,nifedipine,C08CA,CCB,monotherapy
@@ -408,6 +422,7 @@ adipine mr 20,226183,obsolete,nifedipine,C08CA,CCB,monotherapy
 syscor mr,226246,obsolete,nisoldipine,C08CA,CCB,monotherapy
 half propanix la,226250,obsolete,propranolol,C07AA,Beta-Blocker,monotherapy
 hypolar retard 20,226289,obsolete,nifedipine,C08CA,CCB,monotherapy
+nivaten retard,226348,obsolete,nifedipine,C08CA,CCB,monotherapy
 coroday mr,226537,obsolete,nifedipine,C08CA,CCB,monotherapy
 tensopril,226709,obsolete,captopril,C09AA,ACEi,monotherapy
 nifopress retard,227120,obsolete,nifedipine,C08CA,CCB,monotherapy
@@ -447,6 +462,7 @@ slow-pren,386158,obsolete,oxprenolol,C07AA,Beta-Blocker,monotherapy
 tenoret,402925,obsolete,"atenolol, chlorthalidone","C03BA, C07AB","Beta-Blocker, Diuretics: non-thiazide",combination of 2 drugs
 metenix,402957,obsolete,metolazone,C03BA,Diuretics: non-thiazide,monotherapy
 timolide,491231,obsolete,"hydrochlorothiazide, timolol","C03AA, C07AA","Beta-Blocker, Diuretics: thiazide",combination of 2 drugs
+nifedical,491311,obsolete,nifedipine,C08CA,CCB,monotherapy
 quinaretic,540370,obsolete,"hydrochlorothiazide, quinapril","C03AA, C09AA","ACEi, Diuretics: thiazide",combination of 2 drugs
 catacand,540784,obsolete,candesartan,C09CA,ARB,monotherapy
 capropril,541019,obsolete,captopril,C09AA,ACEi,monotherapy
@@ -465,6 +481,7 @@ vascor,66977,obsolete,bepridil,C08EA,CCB,monotherapy
 aldoril,688640,obsolete,"hydrochlorothiazide, methyldopa","C02AB, C03AA","Diuretics: thiazide, Other: centrally acting",combination of 2 drugs
 midamor,6958,obsolete,amiloride,C03DB,Diuretics: potassium-sparing agent,monotherapy
 tenex,71556,obsolete,guanfacine,C02AC,Other: centrally acting,monotherapy
+demadex,71974,obsolete,torsemide,C03CA,Diuretics: loop diuretics,monotherapy
 diltia,831206,obsolete,diltiazem,C08DB,CCB,monotherapy
 dilacor,831221,obsolete,diltiazem,C08DB,CCB,monotherapy
 hydone tablet,831698,obsolete,chlorthalidone,C03BA,Diuretics: non-thiazide,monotherapy
