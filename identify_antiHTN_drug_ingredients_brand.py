@@ -60,8 +60,10 @@ def passes_atc_gate(rxcui):
     classes = []
     for item in data.get("rxclassDrugInfoList", {}).get("rxclassDrugInfo", []) or []:
         cid = item.get("rxclassMinConceptItem", {}).get("classId")
-        if cid:
-            classes.append(cid)
+        if item['minConcept']['tty'] == "IN":
+            cid = item.get("rxclassMinConceptItem", {}).get("classId")
+            if cid:
+                classes.append(cid)
     # print('atc code')
     # print(classes)
     # allow only antihypertensives (C02, C03, C07, C08, C09)
@@ -187,7 +189,7 @@ def find_brands_for_ingredients(all_ingredient_dic: dict, status:str)->dict:
         hit_found = any(ing_ids in all_ingredient_rxcui_list for ing_ids in all_ingredient_ID)
         if hit_found:
             brands_dict[bn_name] = {
-                "name": bn_name,
+                "name": bn_name.lower(),
                 "rxcui": bn_rx,
                 "minIngredients_ID": all_ingredient_ID,
                 "minIngredients_name": all_ingredient_name,
