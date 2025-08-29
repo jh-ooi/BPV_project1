@@ -188,7 +188,12 @@ def main():
                 })
 
     df_kept = pd.DataFrame(kept_rows)
-    df_kept.to_csv("antiHTN_drug_filtered_MAPPING.csv", index=False)
+
+    drop_list = {"sotalol"}
+    df_filtered = df_kept[~df_kept["name"].str.lower().isin(drop_list)]
+    df_filtered = df_kept[~df_kept["ingredient"].str.lower().isin(drop_list)]
+
+    df_filtered.to_csv("antiHTN_drug_filtered_MAPPING.csv", index=False)
 
 if __name__ == "__main__":
     main()
